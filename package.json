@@ -1,0 +1,29 @@
+{
+  "name": "logseq-timeflow-plugin",
+  "description": "A simple timeflow plugin for Logseq. Add timestamps, which can be toggled on or off at any time",
+  "version": "0.0.1",
+  "main": "dist/index.html",
+  "author": "yourmoonlight",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@logseq/libs": "0.0.15",
+    "vue": "3.2.45"
+  },
+  "devDependencies": {
+    "@popperjs/core": "2.11.6",
+    "@vitejs/plugin-vue": "4.0.0",
+    "@vue/compiler-sfc": "3.2.45",
+    "vite": "4.0.3"
+  },
+  "logseq": {
+    "id": "logseq-timeflow-plugin",
+    "title": "Timeflow Plugin",
+    "icon": "./icon.png"
+  },
+  "sponsors": [
+    "https://www.buymeacoffee.com/realMrD"
+  ]
+}
